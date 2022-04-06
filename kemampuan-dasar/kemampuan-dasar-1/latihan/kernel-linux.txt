@@ -1,0 +1,54 @@
+Show Linux Kernel status = echo "Modules dir: /lib/modules/$(uname -r) for kernel version $(uname -r)"
+
+    kmod
+        tools for managing Linux kernel modules 
+
+    linux-base (>= 4.5ubuntu1~16.04.1)
+        Linux image base package 
+
+    linux-modules-5.11.0-41-generic
+        Linux kernel extra modules for version 5.11.0 on 64 bit x86 SMP 
+
+    grub-pc
+        GRand Unified Bootloader, version 2 (PC/BIOS version) 
+    or grub-efi-amd64
+        GRand Unified Bootloader, version 2 (EFI-AMD64 version) 
+    or grub-efi-ia32
+        GRand Unified Bootloader, version 2 (EFI-IA32 version) 
+    or grub
+        Package not available 
+    or lilo
+        LInux LOader - the classic OS boot loader 
+
+    initramfs-tools
+        generic modular initramfs generator (automation) 
+    or linux-initramfs-tool
+        virtual package provided by dracut, initramfs-tools, tiny-initramfs 
+
+    fdutils
+        Linux floppy utilities 
+
+    linux-doc
+        Linux kernel specific documentation for version 5.4.0 
+    or linux-hwe-5.11-source-5.11.0
+        Linux kernel source for version 5.11.0 with Ubuntu patches 
+
+    linux-headers-5.11.0-41-generic
+        Linux kernel headers for version 5.11.0 on 64 bit x86 SMP 
+
+    linux-hwe-5.11-tools
+        Package not available 
+
+    linux-modules-extra-5.11.0-41-generic
+        Linux kernel extra modules for version 5.11.0 on 64 bit x86 SMP
+    libc6 (>= 2.22)
+        GNU C Library: Shared libraries
+        also a virtual package provided by libc6-udeb 
+    libelf1 (>= 0.142)
+        library to read and write ELF files 
+    libssl1.1 (>= 1.1.0)
+        Secure Sockets Layer toolkit - shared libraries
+    linux-hwe-5.11-headers-5.11.0-41
+        Header files related to Linux kernel version 5.11.0
+    zlib1g (>= 1:1.2.3.3)
+        compression library - runtime   

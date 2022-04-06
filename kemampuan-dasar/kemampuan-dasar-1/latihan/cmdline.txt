@@ -1,0 +1,10 @@
+uname = Linux
+who = hanif    :1           2022-04-05 15:41 (:1)
+whoami = hanif
+date = Sel 05 Apr 2022 04:04:05  WIB
+ls /home/hanif/praxis-academy = kemampuan-dasar
+ls -l /home/hanif/praxis-academy = total 4 drwxrwxr-x 3 hanif hanif 4096 Apr  5 15:50 kemampuan-dasar
+pwd = /home/hanif
+bash hanifk.sh = Nama :
+wc -l hanifk.sh = 32 hanifk.sh
+cat cat.cat = cat
